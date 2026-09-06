@@ -1,4 +1,4 @@
-# Acadepowder
+# Acade Powder
 
 <!-- API-EVANGELIST-PROVENANCE:BEGIN -->
 > ### About this repository
@@ -64,5 +64,16 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-Acadepowder is a company surfaced via the API Evangelist harvest backlog (source: secondary-market) and added to the network as a stub for full-pipeline profiling.
-- https://equityzen.com/company/acadepowder
+Acade Powder is the English trading name of Suzhou Luxin New Material Technology Co., Ltd.
+(苏州鲁信新材料科技有限公司), a Chinese advanced-materials manufacturer founded in 2013 in Xiangcheng
+District, Suzhou, Jiangsu. It develops, produces and sells metal powders for additive manufacturing
+(3D printing), powder metallurgy, metal injection moulding and laser cladding — superalloy, titanium,
+aluminium, copper, cobalt-chrome, mould steel, high-speed steel and soft-magnetic grades — for
+aerospace, new energy, electronics, photovoltaic, shipbuilding and medical/dental customers.
+
+It is a materials manufacturer, not a software vendor. A full contract-discovery pass on 2026-09-06
+found no developer program, no API documentation, no SDK and no machine-readable contract on any
+host this company resolves on. See `x-coverage` in `apis.yml` for the probe evidence.
+
+- Website: http://www.acadepowder.com/
+- Secondary market listing: https://equityzen.com/company/acadepowder

@@ -1,0 +1,47 @@
+generated: '2026-09-06'
+method: probed
+source: http://www.acadepowder.com/
+note: >-
+  Every named /.well-known/ path was probed against the only host this company resolves on
+  (www.acadepowder.com). All returned 404 from the site's ASP.NET MVC error handler, so NO
+  WellKnown or SecurityTxt pointer is emitted — this file records a verified absence, not a
+  presence. The apex acadepowder.com does not resolve (NXDOMAIN, no A record) and port 443 on
+  www.acadepowder.com does not accept connections, so the probes ran over HTTP.
+hosts:
+- host: www.acadepowder.com
+  scheme: http
+  note: >-
+    HTTPS unavailable — TCP connect to 443 times out; the corporate site is served over
+    plaintext HTTP only.
+  documents:
+  - path: /.well-known/security.txt
+    status: 404
+    file: null
+  - path: /.well-known/openid-configuration
+    status: 404
+    file: null
+  - path: /.well-known/oauth-authorization-server
+    status: 404
+    file: null
+  - path: /.well-known/api-catalog
+    status: 404
+    file: null
+  - path: /.well-known/ai-plugin.json
+    status: 404
+    file: null
+  - path: /.well-known/agent-card.json
+    status: 404
+    file: null
+  - path: /.well-known/agent.json
+    status: 404
+    file: null
+- host: acadepowder.com
+  scheme: https
+  note: >-
+    Apex domain has no A record (NXDOMAIN); no /.well-known/ path could be probed. Only the
+    www. hostname is published in DNS.
+  documents: []
+summary:
+  hosts_probed: 2
+  documents_found: 0
+  pointer_emitted: false
